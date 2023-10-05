@@ -4,10 +4,11 @@ import dpage
 import epage
 import bfdepage
 
-# 定义主页界面
+
 class Ui_MainWindow(QtWidgets.QMainWindow):
-    # 封装类函数用以窗口跳转
+# 定义主页界面
     def __init__(self):  
+        # 封装类函数用以窗口跳转
         super(Ui_MainWindow, self).__init__()
         self.setupUi(self)
         self.retranslateUi(self)
