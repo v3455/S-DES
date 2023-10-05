@@ -93,6 +93,7 @@ class Ui_Forme(QtWidgets.QWidget):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
+         # 设置显示的内容
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "加密"))
         self.eButton.setWhatsThis(_translate(
@@ -112,8 +113,8 @@ class Ui_Forme(QtWidgets.QWidget):
             "Form", "<html><head/><body><p align=\"center\">"
             "<span style=\" font-size:28pt; font-weight:700;\">加密</span></p></body></html>"))
 
-    # 定义加密函数
     def entry(self):
+        # 定义加密函数
         plain = self.pline.text()
         key = self.kline.text()
         if key == "":
