@@ -5,7 +5,7 @@
    - 输入密钥：设置一个密钥，用于加密您的数据。
    - 加密：点击“加密”按钮，程序将会使用您选择的密钥对输入的明文进行加密。
    - 输出结果：程序将会生成密文并显示出来。
-![image](https://github.com/JaneQPublic/S-DES/blob/main/results/第1关.png)
+![image](https://github.com/JaneQPublic/S-DES/blob/main/results/%E7%AC%AC1%E5%85%B3.png)
 2. 解密功能：
    - 输入密文：输入您要解密的数据（8位二进制数或ASCII编码数据）。
    - 输入密钥：设置一个密钥，用于解密您的数据。
